@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link,useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import { Context } from "../main";
 const Login = () => {
+  const value=useContext(Context)
     const[input,setinput]=useState({
         email:'',
         password:''
