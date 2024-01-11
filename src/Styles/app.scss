@@ -48,3 +48,15 @@ tr>th,tr>td{
         }
     }
 }
+nav{
+    width:100;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    height:70px;
+    align-items: center;
+    a{
+        margin:4%;
+        text-decoration: none;
+    }
+}
